@@ -9,5 +9,9 @@ Composer
 
 AppKernel.php
 
-    new EE\EmbedlyBundle\EEEmbedlyBundle(),
+    new EE\Bundle\EmbedlyBundle\EEEmbedlyBundle(),
 
+
+## Usage
+
+    $embedly = $this->container->get('embedly');
