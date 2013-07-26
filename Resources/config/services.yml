@@ -1,0 +1,7 @@
+parameters:
+    ee_embedly.embedly.embedly.class: Embedly\Embedly
+
+services:
+    ee_embedly.example:
+        class: %ee_embedly.embedly.embedly.class%
+

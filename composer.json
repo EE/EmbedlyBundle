@@ -1,0 +1,24 @@
+{
+    "name": "ee/embedly-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Bundle for official Embedly PHP library.",
+    "keywords": ["embedly", "oembed"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Konrad Podgórski",
+            "email": "konrad.podgorski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "EE\\Bundle\\EmbedlyBundle": ""
+        }
+    },
+    "target-dir": "EE/Bundle/EmbedlyBundle",
+    "require": {
+        "symfony/symfony": "~2.1",
+        "embedly/embedly-php": "dev-master"
+    }
+
+}
